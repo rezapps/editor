@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.56a5d243.css",
-    "main.js": "./static/js/main.0c66a5d9.js",
-    "index.html": "./index.html",
-    "main.56a5d243.css.map": "./static/css/main.56a5d243.css.map",
-    "main.0c66a5d9.js.map": "./static/js/main.0c66a5d9.js.map"
+    "main.css": "/Rezaapps/editor/static/css/main.56a5d243.css",
+    "main.js": "/Rezaapps/editor/static/js/main.c81d31fd.js",
+    "index.html": "/Rezaapps/editor/index.html",
+    "main.56a5d243.css.map": "/Rezaapps/editor/static/css/main.56a5d243.css.map",
+    "main.c81d31fd.js.map": "/Rezaapps/editor/static/js/main.c81d31fd.js.map"
   },
   "entrypoints": [
     "static/css/main.56a5d243.css",
-    "static/js/main.0c66a5d9.js"
+    "static/js/main.c81d31fd.js"
   ]
 }
