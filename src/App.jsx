@@ -7,7 +7,7 @@ import Register from './pages/Register'
 function App() {
   return (
     <>
-		<Router basename={process.env.REACT_APP_BASENAME} >
+		<Router basename='/Rezaapps/editor/' >
 			<div className='container'>
 			<Header />
 			<Routes>
