@@ -3,7 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "npm install",
   "settings": {
     "terminal.integrated.shell.linux": "/usr/bin/env zsh"
   },
