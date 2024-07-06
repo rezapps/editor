@@ -3,14 +3,10 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "settings": {
-    "terminal.integrated.shell.linux": "/usr/bin/env zsh"
-  },
   "extensions": [
     "evondev.dracula-high-contrast",
     "dsznajder.es7-react-js-snippets",
     "dbaeumer.vscode-eslint",
-    "ms-vscode.vscode-typescript-tslint-plugin",
     "humao.rest-client"
   ]
 }
