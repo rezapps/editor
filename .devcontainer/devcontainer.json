@@ -1,8 +1,17 @@
 {
-  "dockerFile": "Dockerfile",
-  "settings": {
-    "terminal.integrated.shell.linux": "/usr/bin/env bash"
+  "name": "Node.js, PNPM, Typescript Dev-Container",
+  "build": {
+    "dockerfile": "Dockerfile"
   },
-  "features": {
-  }
+  "postCreateCommand": "pnpm install",
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/env zsh"
+  },
+  "extensions": [
+    "evondev.dracula-high-contrast",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "humao.rest-client"
+  ]
 }
