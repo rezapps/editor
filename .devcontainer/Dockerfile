@@ -2,6 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache --virtual .dev-dependencies \
     zsh \
+    zsh-vcs \
     git \
     curl \
     build-base \
