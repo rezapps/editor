@@ -3,6 +3,11 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "settings": {
+    "editor.fontFamily": "FiraCode Nerd Font Mono, monospace",
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh"
+  },
   "extensions": [
     "evondev.dracula-high-contrast",
     "dsznajder.es7-react-js-snippets",
