@@ -1,0 +1,8 @@
+{
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/env bash"
+  },
+  "features": {
+  }
+}
