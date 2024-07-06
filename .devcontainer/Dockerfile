@@ -4,14 +4,11 @@ RUN apk add --no-cache --virtual .dev-dependencies \
     zsh \
     ca-certificates \
     git \
-    tzdata \
     build-base \
-    nodejs-current
-
-RUN corepack enable pnpm
+    nodejs
   
 WORKDIR /workspace
 
 COPY . .
 
-RUN pnpm add -g typescript
+RUN npm add -g typescript
