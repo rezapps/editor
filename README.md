@@ -86,7 +86,7 @@ JWT_SECRET = ""
 
 
 ```
-git clone https://github.com/rez433/js_ramverk.git
+[git clone https://github.com/rez433/js_ramverk.git](https://github.com/rezapps/editor)
 
 # from the root of repo:
 cd server
