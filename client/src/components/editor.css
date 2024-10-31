@@ -1,0 +1,79 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.editComment {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+	min-height: 297mm;
+}
+
+.cmnto {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	min-width: 64mm;
+	width: 100%;
+}
+.ql-cmntBtn:hover {
+	filter: invert(29%) sepia(93%) saturate(6280%) hue-rotate(198deg) brightness(97%) contrast(101%);	
+}
+
+.ql-container {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 11pt;
+	padding: 9px;
+	min-width: 215mm;
+	width: 215mm;
+}
+
+.qeditor {
+	padding: 0;
+	width: 216mm;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.ql-snow .ql-editor {
+	width: 210mm;
+	line-height: 1.5;
+	background: rgb(var(--background-end-rgb));
+	padding: 24mm 24mm 24mm 24mm;
+}
+
+.ql-toolbar {
+	border: none !important;
+	border-bottom: 1px solid #ccc !important;
+	position: sticky;
+	top: 0;
+	background-color: rgb(var(--background-end-rgb));
+	z-index: 1;
+	min-width: 215mm;
+	width: 215mm;
+}
+
+.cstomBtn {
+	display: flex;
+	max-width: 14rem;
+	gap: 1.5rem;
+	padding-right: 2rem;
+	font-size: 1.3rem;
+}
+
+.ttl-field {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	& input {
+		padding: .2rem;
+		width:77%;
+	}
+}
+
+
+.hilited {
+	color: #fff;
+	background: rgb(var(--ui-color));
+}
